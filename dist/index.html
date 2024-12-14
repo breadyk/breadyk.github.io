@@ -3,7 +3,7 @@
 
 <head>
   <title>Lenn art</title>
-  <link rel="stylesheet" href="styles.css">
+  <link rel="stylesheet" href="styles/styles.css">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400..700;1,400..700&family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap" rel="stylesheet">
@@ -32,21 +32,77 @@
         <br>Место для настоящего
       </h2>
     </div>
+
     <div class="main__btns">
       <h3 class="btns__text">Я хочу:</h3>
       <div class="btns__btn-row">
-        <a class="orange-btn btn" href="#">Провести мероприятие</a>
+        <a class="btn btn-orange " href="#">Провести мероприятие</a>
         <a class="btn" href="#">Стать арендатором</a>
       </div>
     </div>
-    <div class="headline headline__title">
-      <h2 class="headline__about">О нас</h2>
-    </div>
-    <h2 class="section-title">О нас</h2>
-  </main>
 
+    <div class="section-title section-title__title">
+      <h2 class="section-title__text">О нас</h2>
+    </div>
+
+    <div class="about-us">
+      <p class="about-us about-us__text">Тут короче сложная вёрстка, потом сделаю.</p>
+    </div>
+
+    <div class="section-title section-title__title">
+      <h2 class="section-title__text">Мероприятия</h2>
+    </div>
+
+
+  </main>
   <footer class="page-footer">
-    <p>footer</p>
+    <div class="page-footer__liners"></div>
+    <div class="page-footer__block">
+      <div class="page-footer__block-links">
+        <a href="#" class="page-footer__block-link">Календарь мероприятий</a>
+        <a href="#" class="page-footer__block-link">Провести мероприятие</a>
+        <a href="#" class="page-footer__block-link">Стать арендатором</a>
+        <a href="#" class="page-footer__block-link">Наши проекты</a>
+        <a href="#" class="page-footer__block-link">Контакты</a>
+      </div>
+    </div>
+    <form class="page-footer__subscribe-form subscribe-form">
+      <h4>Подпишись и будь в курсе происходящего</h4>
+      <div class="subscribe-form__wrapper">
+        <div class="subscribe-form__field-wrapper">
+          <input type="email" placeholder="Email" class="subscribe-form__input" required />
+        </div>
+        <button type="submit" class="subscribe-form__submit">Подписаться</button>
+      </div>
+      <label class="subscribe-form__check check">
+        <input type="checkbox" name="agree" class="check__input" required checked />
+        <span class="check__mark"></span>
+        <span class="check__label"></span>
+      </label>
+    </form>
+    <div class="page-footer__block2">
+      <div class="page-footer__socials">
+        <a href="#" class="page-footer__socials social">
+          <svg class="page-footer__social-icon">
+
+          </svg>
+        </a>
+      </div>
+      <div class="page-footer__block2-links">
+        <a href="#" class="page-footer__block2-link"></a>
+        <a href="#" class="page-footer__block2-link"></a>
+      </div>
+      <div class="page-footer__copyright">
+        Millenials 2022
+      </div>
+      <div class="page-footer__create">
+        <a href="#" class="page-footer__create-link">
+          <svg class="page-footer__create-icon">
+
+          </svg>
+        </a>
+      </div>
+    </div>
   </footer>
 
 </body>

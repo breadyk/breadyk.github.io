@@ -3,8 +3,31 @@
     @@include('blocks/head.html')
     <body class="body">
         @@include('blocks/page-header.html')
-        @@include('blocks/main.html')
-        
+        <main class="main">
+            @@include('blocks/logo-quote.html')
+
+            <div class="main__btns">
+                <h3 class="btns__text">Я хочу:</h3>
+                <div class="btns__btn-row">
+                    <a class="btn btn-orange " href="#">Провести мероприятие</a>
+                    <a class="btn" href="#">Стать арендатором</a>
+                </div>
+            </div>
+
+            <div class="section-title section-title__title">
+                <h2 class="section-title__text">О нас</h2>
+            </div>
+
+            <div class="about-us">
+                <p class="about-us about-us__text">Тут короче сложная вёрстка, потом сделаю.</p>
+            </div>
+
+            <div class="section-title section-title__title">
+                <h2 class="section-title__text">Мероприятия</h2>
+            </div>
+
+
+        </main>
         @@include('blocks/page-footer.html')
     </body>
 </html>

@@ -17,7 +17,22 @@
         width: calc(33.333% - 60px);
         margin: 0 30px 120px;
     }
+    &__link{
+        display: flex;
+        align-self: flex-end;
+        text-decoration: none;
+        transition: color 0.2s;
+        &:hover{
+            color: @red;
+        }
+    }
 }
 //display: flex;
 //flex-wrap: wrap;
 //margin: 0 -30px -120px;
+.home{
+    padding: 100px 0;
+    &&__listing{
+        margin-bottom: 95px;
+    }
+}
